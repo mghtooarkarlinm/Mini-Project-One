@@ -61,3 +61,27 @@ section{
     margin: 0 18px 0 18px;
     font-size: 34px;
 }
+
+@media screen  and (max-width : 415px){
+    .logo{
+        padding: 20px 0 20px 30px;
+    }
+    .content{
+        padding: 60px 0 20px 30px;
+    }
+    .content h2{
+        font-size: 46px;
+    }
+    .content p{
+        font-size: 20px;
+    }
+    .icons{
+        left: 30%;
+    }
+}
+
+@media screen and (max-width : 376px) {
+    .icons{
+        bottom: 20px;
+    }
+}
